@@ -63,7 +63,7 @@ torch.cuda.is_available()  # True çıkmalı
 
 ```bash
 git clone https://github.com/Guvency/whisper-watcher.git
-cd whisper-watcher
+cd whisper-watcher-gpu
 pip install -r requirements.txt
 ```
 
@@ -102,7 +102,7 @@ mkdir input output
 3. Scripti başlatın:
 
 ```bash
-python whisper_watcher.py
+python whisper_watcher_gpu.py
 ```
 
 4. `input/` klasörüne `.mp3` dosyası bırakın. Otomatik olarak yazıya çevrilip `output/` klasörüne `.txt` dosyası olarak kaydedilecektir.
@@ -116,7 +116,7 @@ whisper-watcher/
 │
 ├── input/              # mp3 dosyalarını buraya bırak
 ├── output/             # .txt sonuçlar buraya yazılır
-├── whisper_watch.py    # ana izleyici script
+├── whisper_watch_gpu.py    # ana izleyici script
 ├── README.md           # bu dosya
 └── requirements.txt    # bağımlılık listesi
 ```
