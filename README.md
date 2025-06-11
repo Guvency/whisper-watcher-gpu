@@ -143,4 +143,4 @@ MIT License.
 
 ## ✨ İlham
 
-Bu proje, Whisper ile otomatik transkripsiyonun basit ama etkili bir örneğini göstermek için hazırlandı.
+Bu proje, Whisper ile otomatik transkripsiyonun basit ama etkili bir örneğini gösteren whisper-watcher'ı GPU yardımıyla hızlandırmak için hazırlandı.
